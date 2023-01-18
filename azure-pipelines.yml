@@ -17,11 +17,6 @@ steps:
 - script: |
     npm install
     npm run build
+    npm test
   displayName: 'npm install and build and test'
   
-- script: |
-    cd $(build.sourcesdirectory)/package
-    
-    npm install 
-    npm test
-  displayName: 'Command Line Script'

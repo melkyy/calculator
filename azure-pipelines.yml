@@ -16,7 +16,7 @@ steps:
 
 
 - script: |
-    npm run test
+    npm test
   displayName: 'Testing node app'
 
 - script: |
